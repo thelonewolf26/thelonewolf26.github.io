@@ -1,0 +1,14 @@
+#what .container .features .box {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#what .container .features .box .info {
+
+    padding-left: 1rem;
+}
+
+#contact .map {
+    flex: 3;
+}

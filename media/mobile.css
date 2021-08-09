@@ -1,0 +1,73 @@
+/* Navbar */
+
+    #navbar .container{
+
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #navbar .container .logo {
+
+        padding-bottom: 2.5rem;
+        font-size: 2.5rem;
+    }
+
+/* Showcase Overlay */
+
+    #showcase .showcase-content {
+
+        top: 146px;
+    }
+
+    #showcase .showcase-content h2 {
+
+
+        padding-top: 0.5rem;
+    }
+
+/* Section 1 : What We Do */
+
+    #what .container .features {
+
+        flex-direction: column;
+    }
+
+    #what .container .features .box {
+
+        padding-bottom: 2rem;
+    }
+
+/* Section 2 : Who We Are */ 
+
+    #who {
+
+        display: block;
+    }
+
+/* Section 3 : Our Clients */
+
+    #clients .container .images:last-child {
+
+        display: none;
+    }
+
+/* Section 4 : Contact */
+
+    #contact {
+
+        display: block;
+    }
+
+    #contact .map {
+
+        height: 40vh;
+    }
+
+@media(max-width: 375px) {
+
+    #navbar .container .logo {
+
+        font-size: 1rem;
+    }
+
+}

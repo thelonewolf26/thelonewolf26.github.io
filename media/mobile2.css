@@ -1,0 +1,21 @@
+@media(max-width: 376px) {
+
+    #navbar .container .logo {
+
+        font-size: 2rem;
+    }
+
+    #showcase .showcase-content {
+
+        top: 135px;
+    }
+
+    footer p {
+
+        font-size: 0.9rem;
+    }
+
+}
+
+@media(max-width: 320px) {
+}
